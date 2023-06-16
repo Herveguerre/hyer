@@ -2,13 +2,11 @@
 .main{
     display: flex;
 }
-
 .d_1{
     width: 40vw;
 }
 .d_2{
-    width: 60%;
-    
+    width: 60%;   
 }
 .d_3{
     font-size: 40px;
@@ -38,21 +36,34 @@ padding: 20 0 20px;
     justify-content: space-between;
 }
 .toutes_les_solutions{
-    width: 350px;
+    background-color: var(--clr-2);
+    color: var(--clr-4);
+    width: 33vw;
+    padding: 20px;
 }
 .sur_demande{
     background-image: url(/img/img_home/1611761434-perseat2.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    background-size: 150%;
+    width: 33vw;   
+    padding: 20px;
+}
+.sur_demande p{
+    color: var(--clr-4);
+    font-size: 30px;
+    
+}
+.vols_partages{
+    background-image: url(/img/img_home/capture.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 550px;   
-}
-.sur_demande p{
-    color: var(--clr-5);
-    font-size: 30px;
-}
-.vols_partages{
-    width: 400px;
+    width: 33vw;
+    color: var(--clr-4);
+    padding: 20px;
 
 }
 /*section3*/
