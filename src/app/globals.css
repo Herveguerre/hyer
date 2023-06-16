@@ -3,4 +3,11 @@
   --clr-1:#BC7155;
   --clr-2:#151623;
   --clr-3:#000D10 ;
+  --clr-4:#fff;
+  --clr-5:#8E8E95;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

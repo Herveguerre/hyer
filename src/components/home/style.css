@@ -1,0 +1,62 @@
+/*section1*/
+.main{
+    display: flex;
+}
+
+.d_1{
+    width: 40vw;
+}
+.d_2{
+    width: 60%;
+    
+}
+.d_3{
+    font-size: 40px;
+}
+.d_4{
+    display: flex;
+}
+.d_4 hr{
+    width: 70%;
+}
+.d_5{
+    display: flex;
+}
+.d_5 hr{
+    width: 70%;
+}
+.d_41{
+width: 400px;
+padding: 20 0 20px;
+}
+
+/*section2*/
+.section2{
+    display: flex;
+    margin-top: 80px;
+    height: 100vh;
+    justify-content: space-between;
+}
+.toutes_les_solutions{
+    width: 350px;
+}
+.sur_demande{
+    background-image: url(/img/img_home/1611761434-perseat2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 550px;   
+}
+.sur_demande p{
+    color: var(--clr-5);
+    font-size: 30px;
+}
+.vols_partages{
+    width: 400px;
+
+}
+/*section3*/
+/*section4*/
+/*section5*/
+/*section6*/
+/*section7*/
