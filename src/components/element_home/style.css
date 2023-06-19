@@ -38,7 +38,7 @@ padding: 20 0 20px;
 .toutes_les_solutions{
     background-color: var(--clr-2);
     color: var(--clr-4);
-    width: 33vw;
+    width: 33.33vw;
     padding: 20px;
 }
 .toutes_les_solutions :nth-child(1){
@@ -58,24 +58,37 @@ padding: 20 0 20px;
     margin-top: 90px;
     margin-left: 50px;
     background-color: transparent;
-    color: #fff;
+    color: var(--clr-4);
     border: 1px solid;
     padding: 15px;
     border-radius: 25px;
+    transition: color 2s;
+}
+
+.btn_sec_2:hover{
+    background-color: var(--clr-4);
+    color: var(--clr-3);
+    cursor: pointer;
 }
 
 .sur_demande{
     background-image: url(/img/img_home/1611761434-perseat2.jpg);  
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: bottom left;
     background-size: cover;
     background-size: 150%;
-    width: 33vw;   
+    width: 33.33vw;   
     padding: 20px;
 }
 .sur_demande p{
     color: var(--clr-4);
     font-size: 30px;
+    width: 80%;
+}
+.sur_demande :nth-child(1){
+    margin-top: 550px;
+    font-size: 50px;
+    
 }
 
 .vols_partages{
@@ -83,10 +96,17 @@ padding: 20 0 20px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 33vw;
+    width: 33.33vw;
     color: var(--clr-4);
     padding: 20px;
-
+    font-size: 30px;
+}
+.vols_partages p{
+    width: 70%;
+}
+.vols_partages :nth-child(1){
+    margin-top: 550px;
+    font-size: 50px;
 }
 /*section3*/
 /*section4*/
