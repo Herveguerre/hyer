@@ -45,17 +45,17 @@ padding: 20 0 20px;
     font-size: 50px;
     width: 200px;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 10%;
 }
 .toutes_les_solutions :nth-child(2){
-    margin-top: 350px;
+    margin-top: 100%;
     width: 80%;
     font-size: 25px;
     margin-left: 50px;
 }
 .btn_sec_2{
     font-size: 25px;
-    margin-top: 90px;
+    margin-top: 10%;
     margin-left: 50px;
     background-color: transparent;
     color: var(--clr-4);
@@ -76,7 +76,6 @@ padding: 20 0 20px;
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: cover;
-    background-size: 150%;
     width: 33.33vw;   
     padding: 20px;
 }
@@ -86,7 +85,7 @@ padding: 20 0 20px;
     width: 80%;
 }
 .sur_demande :nth-child(1){
-    margin-top: 550px;
+    margin-top: 135%;
     font-size: 50px;  
 }
 
@@ -104,7 +103,7 @@ padding: 20 0 20px;
     width: 70%;
 }
 .vols_partages :nth-child(1){
-    margin-top: 550px;
+    margin-top: 80vh;
     font-size: 50px;
 }
 
@@ -114,41 +113,47 @@ padding: 20 0 20px;
     width: 80vw;
     margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
 }
 .sec3, .div_r_s3_1{
     display: flex;
     flex-wrap: wrap;
 }
 .div_l_s3{
-    width: 900px;
+    width: 800px;
     height: 900px;
+    min-width: 00px;
     padding: 10px;
 }
 .div_l_s3 p{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 30px;
+    font-weight: 600;
 }
 .div_l_s3 img{
     width: 100%;
     border-bottom-right-radius: 30px;
+    object-fit: cover;
 }
 .div_r_s3{
-    margin-top: 95px;
+    margin-top: 115px;
     margin-left: 20px;
+}
 
+.r_s3_bar, 
+.r_s3_can{
+    margin-right: 30px;
 }
 
 .r_s3_bar,
 .r_s3_ib, 
 .r_s3_can, 
 .r_s3_pa{
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 265px;
     border-bottom: 1px solid rgb(98, 97, 97); 
     border-bottom-right-radius: 30px;
     margin-left: 20px;
-    margin-right: 20px;
+    
 }
 .r_s3_bar :nth-child(1),
 .r_s3_ib :nth-child(1), 
@@ -163,10 +168,69 @@ padding: 20 0 20px;
 .r_s3_pa :nth-child(2){
     margin-top: 55%;
     font-size: 20px;
-    
 }
 
 /*section4*/
+.sec4{
+    display: flex;
+    height: 100vh;
+}
+.sec4_l{
+    background-color:#0F0F1C ;
+    background-image: url(/img/img_home/phone.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 50vw;
+}
+.sec4_r{
+    background-color: #151623;
+    color: var(--clr-4);
+    width: 50vw;
+}
+.sec4_r :nth-child(1){
+    font-size: 5vw;
+    font-weight: 500;
+    padding: 30px;
+}
+.sec4_r :nth-child(2){
+    font-size: 1vw; 
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 45vh;  
+    padding: 30px;
+}
 /*section5*/
+.sec_5_content{
+    display: flex;
+}
+.sec_5_r {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+}
+
+.sec_5_card { 
+    justify-content: center; 
+    align-items: center; 
+    
+    padding: 20px;
+    width: 400px;
+}
+.sec_5_card :nth-child(2){
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.sec5svg{
+    border: 1px solid rgb(98, 97, 97); 
+    border-bottom-right-radius: 30px;
+    width: 100px;
+    margin-bottom: 20px;
+} 
+.sec5svg svg{
+    font-size: 50px;
+    margin: 20px;
+}
 /*section6*/
 /*section7*/
