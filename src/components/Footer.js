@@ -30,44 +30,44 @@ export default function Footer() {
                 <div className='fd_1'>
                     <div className='f1'>
                         <p>Sur demande</p>
-                        <p>Charte privée</p>
+                        <p className='hover' >Charte privée</p>
                     </div>
                     <div className='f2'>
                         <p>Vols partagés</p>
-                        <p>Vols disponibles</p>
-                        <p>Proposer un vol</p>
+                        <p className='hover' >Vols disponibles</p>
+                        <p className='hover' >Proposer un vol</p>
                     </div>
                     <div className='f3'>
                         <p>Adhésions</p>
-                        <p>Élever</p>
+                        <p className='hover' >Élever</p>
                     </div>
                 </div>
 
                 <div className='fd_2'>
                     <div className='f4'>
                         <p>Entreprise</p>
-                        <p>À propos de nous</p>
-                        <p>Solutions</p>
-                        <p>Nouvelles</p>
-                        <p>Contact</p>
+                        <p className='hover' >À propos de nous</p>
+                        <p className='hover' >Solutions</p>
+                        <p className='hover' >Nouvelles</p>
+                        <p className='hover' >Contact</p>
                     </div>
                     <div className='f5'>
                         <p>Mon compte</p>
-                        <p>Enregistrer</p>
-                        <p>Connexion</p>
-                        <p>Tableau de bord</p>
+                        <p className='hover' >Enregistrer</p>
+                        <p className='hover' >Connexion</p>
+                        <p className='hover' >Tableau de bord</p>
                     </div>
                 </div>
 
                 <div className='fd_3'>
                     <div className='f6'>
-                        <p>Politique relative aux cookies</p>
+                        <p className='hover' >Politique relative aux cookies</p>
                     </div>
                     <div className='f7'>
-                        <p>termes et conditions</p>
+                        <p className='hover' >termes et conditions</p>
                     </div>
                     <div className='f8'>
-                        <p>politique de confidentialité</p>
+                        <p className='hover' >politique de confidentialité</p>
                     </div>
 
                 </div>

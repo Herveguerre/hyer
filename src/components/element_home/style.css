@@ -41,9 +41,31 @@ padding: 20 0 20px;
     width: 33vw;
     padding: 20px;
 }
+.toutes_les_solutions :nth-child(1){
+    font-size: 50px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.toutes_les_solutions :nth-child(2){
+    margin-top: 350px;
+    width: 80%;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.btn_sec_2{
+    font-size: 25px;
+    margin-top: 90px;
+    margin-left: 50px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 25px;
+}
+
 .sur_demande{
-    background-image: url(/img/img_home/1611761434-perseat2.jpg);
-    
+    background-image: url(/img/img_home/1611761434-perseat2.jpg);  
     background-repeat: no-repeat;
     background-position: center left;
     background-size: cover;
@@ -54,8 +76,8 @@ padding: 20 0 20px;
 .sur_demande p{
     color: var(--clr-4);
     font-size: 30px;
-    
 }
+
 .vols_partages{
     background-image: url(/img/img_home/capture.png);
     background-repeat: no-repeat;

@@ -7,7 +7,7 @@ export default function Section2() {
       <div className='toutes_les_solutions'>
         <p>Services flexibles</p>
         <p>Des solutions intelligentes pour toutes vos exigences d'affrètement</p>
-        <button>Toutes lessolutions</button>
+        <button className='btn_sec_2' >Toutes les solutions</button>
       </div>
 
       <div className='sur_demande'>

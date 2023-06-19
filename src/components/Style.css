@@ -53,6 +53,10 @@ h2{
     font-size: 80px;  
 }
 
+
+
+
+
 /*footer*/
 
 .svg_rs{
@@ -129,6 +133,14 @@ h2{
     font-weight: 700;
     margin-bottom: 30px;
     color: var(--clr-4);
+}
+
+.hover {
+    transition: color 0.3s;
+    }
+.hover:hover{
+    color: var(--clr-4);
+    cursor: pointer;
 }
 
 .rs p:nth-child(3){
