@@ -295,13 +295,17 @@ padding: 20 0 20px;
     height: 100%;
     object-fit: cover;
     z-index: 1;
+    position: absolute;
   }
    .carousel-button{
     background: transparent;
     z-index: 99;
     border: none;
   cursor: pointer;
-    padding: 3vw;
+    padding: 50%;
+   }
+   .left{
+    margin-left: 0px;
    }
   
 /*section7*/
