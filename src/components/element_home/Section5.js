@@ -5,13 +5,14 @@ export default function Section5() {
     <div className='sec_5'>
       <div className='sec_5_title' >
         <p>
-        Expérience Hyer®
+        Expérience<br/> Hyer®
         </p>
       </div>
+
       <div className='sec_5_content'>
         <div className='sec_5_l'>
           <p>Chez Hyer®, nous sommes audacieux. L'avion n'est qu'un outil que nous utilisons pour vous amener là où vous voulez être. Nos clients bénéficient de beaucoup plus de valeur pour leur investissement, accédant à une personnalisation inégalée lorsqu'ils volent en privé.</p>
-          <p>Nous offrons des expériences personnalisées avec nos charters à la demande et une flexibilité personnalisée avec notre vol partagé  exclusif . Nous améliorons votre façon de voler.</p>
+          <p>Nous offrons <span>des expériences personnalisées </span>avec nos charters <span>à la demande </span>et <span>une flexibilité personnalisée </span>avec notre <span>vol partagé </span> exclusif . Nous améliorons votre façon de voler.</p>
         </div>
 
         <div className='sec_5_r'>
@@ -75,7 +76,7 @@ export default function Section5() {
           </div>
 
         </div>
-      </div>
+      </div><button className='btn_sec_5'>Réserver un avion</button>
     </div>
   )
 }
