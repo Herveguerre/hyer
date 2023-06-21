@@ -1,10 +1,12 @@
 
 /*header*/
+
 .loggo{
     width: 550px;
+    min-width: 100px;
     margin-left: 50px;
     margin-top: 50px;
-    color: #000;
+    
 }
 
 .burger {
@@ -33,12 +35,14 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 1300px; 
+    height: 100vh; 
+    flex-wrap: wrap;
 }
 
 .nav{
     margin-left: 50px;
     display: flex;
+    flex-wrap: wrap-reverse;
     gap: 20px;
 }
 
@@ -49,8 +53,8 @@ li{
 }
 
 h2{
-    margin-top: 9vw;
-    font-size: 80px;  
+    margin-top: 9vw; 
+    font-size: clamp(1vw, 80px, 5vw);
 }
 
 

@@ -173,6 +173,7 @@ padding: 20 0 20px;
 /*section4*/
 .sec4{
     display: flex;
+    flex-wrap: wrap;
     height: 100vh;
 }
 .sec4_l{
@@ -182,11 +183,13 @@ padding: 20 0 20px;
     background-position: center center;
     background-size: cover;
     width: 50vw;
+    min-width: 300px;
 }
 .sec4_r{
     background-color: #151623;
     color: var(--clr-4);
     width: 50vw;
+    min-width: 300px;
 }
 .sec4_r :nth-child(1){
     font-size: 5vw;
@@ -220,11 +223,18 @@ padding: 20 0 20px;
 }
 .sec_5_content{
     display: flex;
+    flex-wrap: wrap;
 }
 .sec_5_r {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px; 
+}
+@media only screen and (max-width:320px) {
+    .sec_5_r{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .sec_5_card { 
@@ -337,7 +347,7 @@ padding: 20 0 20px;
     color: var(--clr-3);
 
 }
-.sec_7_content :nth-child(2):hover{
+.sec_7_txt :nth-child(2):hover{
     text-decoration:underline;
     cursor: pointer;
 }
