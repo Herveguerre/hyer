@@ -24,7 +24,7 @@ export default function Section6() {
       <div className='sec_6_img'>
       <button className="carousel-button right" onClick={nextImage}></button>
       <img src={images[currentImage]} alt="" />
-      <button className="carousel-button left" onClick={previousImage}></button>
+      
       </div>
       <div>
         

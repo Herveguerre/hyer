@@ -7,8 +7,7 @@ export default function Section1() {
       <div className="d_1"></div>
       <div className="d_2">
         <div className="d_3">
-          <p>
-            Nous pensons que dans un monde où les passagers sont devenus des
+          <p>Nous pensons que dans un monde où les passagers sont devenus des
             numéros, une approche personnelle est essentielle pour vous assurer
             de tirer le meilleur parti de votre expérience de vol.
           </p>
