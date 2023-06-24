@@ -13,6 +13,7 @@
     font-size: clamp(20px, 5vw, 80px);
     margin-right: 5vw;
     font-weight: 700;
+    margin-top: 20px;
 }
 .d_4, .d_5{
     display: flex;
@@ -29,6 +30,9 @@
 .d_4 hr{
     width: 70%;
 }
+.d_5{
+    margin-bottom: 30px;
+}
 
 .d_5 hr{
     width: 70%;
@@ -37,6 +41,7 @@
     max-width: 400px;
     margin-top: 30px;
     padding: 20 0 20px;
+    margin-bottom: 20px;
 }
 .d_41 :nth-child(2){
     margin-top: 20px;
@@ -60,7 +65,12 @@
 @media (max-width:720px) {
    .section2{
     display: block;
+    width: 100vw;
    } 
+   .toutes_les_solutions, .sur_demande, .vols_partages{
+    width: 320px;
+    height: 500px;
+   }
 }
 .toutes_les_solutions{
     background-color: var(--clr-2);
@@ -68,22 +78,25 @@
     width: 33.33vw;
     min-width: 300px;
     padding: 20px;
+    position: relative;
 }
 .toutes_les_solutions :nth-child(1){
     font-size: 50px;
     width: 200px;
     margin-left: 50px;
-    margin-top: 10%;
+    margin-top: 8vh;
+    position: absolute;
 }
 .toutes_les_solutions :nth-child(2){
-    margin-top: 100%;
+    margin-top: 85vh;
     width: 80%;
     font-size: 25px;
     margin-left: 50px;
+    position: absolute;
 }
 .btn_sec_2{
     font-size: 25px;
-    margin-top: 10%;
+    margin-top: 75vh;
     margin-left: 50px;
     background-color: transparent;
     color: var(--clr-4);
@@ -91,6 +104,7 @@
     padding: 15px;
     border-radius: 25px;
     transition: color 2s;
+    position: absolute;
 }
 
 .btn_sec_2:hover{
@@ -107,16 +121,23 @@
     width: 33.33vw;  
     min-width: 300px; 
     padding: 20px;
+    position: relative;
 }
-.sur_demande p{
+.sur_demande :nth-child(1){
+    color: var(--clr-4);
+    margin-top: 80vh;
+    font-size: 50px;  
+    position: absolute;
+}
+
+.sur_demande :nth-child(2){
     color: var(--clr-4);
     font-size: 30px;
     width: 80%;
+    position: absolute;
+    margin-top: 85vh;
 }
-.sur_demande :nth-child(1){
-    margin-top: 135%;
-    font-size: 50px;  
-}
+
 
 .vols_partages{
     background-image: url(/img/img_home/capture.png);
@@ -128,13 +149,17 @@
     color: var(--clr-4);
     padding: 20px;
     font-size: 30px;
+    position: relative;
 }
 .vols_partages p{
+    margin-top: 85vh;
     width: 70%;
+    position: absolute;
 }
 .vols_partages :nth-child(1){
     margin-top: 80vh;
     font-size: 50px;
+    position: absolute;
 }
 
 /*section3*/
@@ -224,8 +249,17 @@
 /*section4*/
 .sec4{
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     height: 100vh;
+}
+@media only screen and (max-width:320px){
+    .sec_4{
+        display: block;
+        height: 50vh;
+    }
+    .sec4_l, .sec4_r{
+        width: 100vw;
+    }
 }
 .sec4_l{
     background-color:#0F0F1C ;
@@ -235,12 +269,14 @@
     background-size: cover;
     width: 50vw;
     min-width: 300px;
+    position: relative;
 }
 .sec4_r{
     background-color: #151623;
     color: var(--clr-4);
     width: 50vw;
     min-width: 300px;
+    position: relative;
 }
 .sec4_r :nth-child(1){
     font-size: 5vw;
@@ -253,6 +289,7 @@
     margin: 0 auto;
     margin-top: 45vh;  
     padding: 30px;
+    position: absolute;
 }
 /*section5*/
 .sec_5{

@@ -17,7 +17,7 @@ export default function Header() {
                 <h2> Avion <br/>personnalisée</h2>
                 </div>
                 <div className='burger' >
-                        
+                &#x2708;
                 </div>
                 <div className='burger' >
                         <div className="line"></div>
