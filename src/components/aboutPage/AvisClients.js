@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function AvisClients() {
   return (
-    <div>
-      <div  className='container flex wrap'><hr/>
+    <div className='about flex'>
+      <div  className=' flex wrap'><hr/>
         <div>
           <p>
           Ce que disent nos clients

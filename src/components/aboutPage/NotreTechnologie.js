@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function NotreTechnologie() {
   return (
-    <div>
+    <div className='about flex wrap'>
       <p>Notre chronologie</p>
 
       <div>
